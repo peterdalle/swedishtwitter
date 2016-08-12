@@ -10,6 +10,6 @@ Although there are no headers in the CSV file, the headers is simply <code>datet
 
 ## Members of Swedish Parliament (Riksdagen)
 
-A CSV file of MP's from Riksdagen with the header <code>Name; Party; Twittername</code> (separated by semi-colon).
+A CSV file of MP's from Riksdagen with the header <code>Name, Party, Twittername</code>.
 
 The list contains 278 Twitter accounts from 349 MP's (80 %). The list is likely to be incomplete and may contain errors. (It's better to store the ID of each Twitter account.)
