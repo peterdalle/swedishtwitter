@@ -49,3 +49,21 @@ Although there are no headers in the CSV file, the headers is simply <code>datet
 A CSV file of MP's from Riksdagen with their Twitter handles. The CSV file has the header <code>Name, Party, Twittername</code>.
 
 The list contains 278 Twitter accounts from 349 MP's (80 %). The list is likely to be incomplete and may contain errors. (It's better to store the ID of each Twitter account – if they change username, for example.)
+
+## Cite me
+
+If you would like to cite this open data, please use the following BibTeX:
+
+```BibTeX
+@online{twitter_trends_2016,
+	title = {Swedish Twitter Trends},
+	url = {https://github.com/peterdalle/swedishtwitter},
+	urldate = {2016-12-28},
+	abstract = {Twitter trends from Swedish Twitter (Sweden, Stockholm, Göteborg). Trends collected every hour from 2016-03-29 to 2016-12-27 via the GET trends/place API. Data contains datetime, name of the trend, tweet volume, and whether or not the trend is promoted content.},
+	journal = {GitHub},
+	author = {Dahlgren, Peter M.},
+	year = {2016},
+	month = {dec},
+	keywords = {Twitter, Trends}
+}
+```
