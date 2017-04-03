@@ -2,14 +2,13 @@
 
 Here I will gather some data collections from the Swedish Twitter.
 
-
 ## Trends from Swedish Twitter
 
-* <code>trends_sweden.csv</code> (Sweden)
-* <code>trends_sthlm.csv</code> (Stockholm)
-* <code>trends_gbg.csv</code> (Gothenburg)
+* <code>trends_sweden.csv</code> (Sweden, WOEID 23424954)
+* <code>trends_sthlm.csv</code> (Stockholm, WOEID 906057)
+* <code>trends_gbg.csv</code> (Gothenburg, WOEID 890869)
 
-Twitter trends collected every hour from 2016-03-29 to 2016-12-27. Each CSV file contains about 280,000 trends, collected via the [GET trends/place](https://dev.twitter.com/rest/reference/get/trends/place) Twitter API. The CSV file headers is <code>datetime, trend, tweetvolume, promotedcontent</code>.
+Twitter trends collected every hour from 2016-03-29 to 2017-04-03. Each CSV file contains about 380,000 trends, collected via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place). The CSV file headers is <code>datetime, trend, tweetvolume, promotedcontent</code>.
 
 ```bash
 $ head trends_gbg.csv
@@ -55,15 +54,13 @@ The list contains 278 Twitter accounts from 349 MP's (80 %). The list is likely 
 If you would like to cite this open data, please use the following BibTeX:
 
 ```BibTeX
-@online{twitter_trends_2016,
-	title = {Swedish Twitter Trends},
-	url = {https://github.com/peterdalle/swedishtwitter},
-	urldate = {2016-12-28},
-	abstract = {Twitter trends from Swedish Twitter (Sweden, Stockholm, Göteborg). Trends collected every hour from 2016-03-29 to 2016-12-27 via the GET trends/place API. Data contains datetime, name of the trend, tweet volume, and whether or not the trend is promoted content.},
-	journal = {GitHub},
-	author = {Dahlgren, Peter M.},
-	year = {2016},
-	month = {dec},
-	keywords = {Twitter, Trends}
+@misc{twitter_trends_2017,
+    title = {Swedish Twitter Trends},
+    url = {https://snd.gu.se/en/catalogue/study/ext0271},
+    abstract = {Twitter trends from Swedish Twitter (Sweden, Stockholm, Göteborg). Trends collected every hour from 2016-03-29 to 2016-12-27 via the GET trends/place API. Data contains datetime, name of the trend, tweet volume, and whether or not the trend is promoted content.},
+    publisher = {Swedish National Data Service},
+    author = {Dahlgren, Peter M.},
+    year = {2017},
+    keywords = {Twitter, Trends}
 }
 ```
