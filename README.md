@@ -8,7 +8,7 @@ Here I will gather some data collections from the Swedish Twitter.
 * <code>trends_sthlm.csv</code> (Stockholm, WOEID 906057)
 * <code>trends_gbg.csv</code> (Gothenburg, WOEID 890869)
 
-Twitter trends collected every hour from 2016-03-29 to 2017-04-03. Each CSV file contains about 380,000 trends, collected via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place). The CSV file headers is <code>datetime, trend, tweetvolume, promotedcontent</code>.
+Twitter trends collected every hour from 2016-03-29 to 2017-10-13 (new data updated regularly). Each CSV file contains about 570,000 trends, collected via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place). The CSV file headers is <code>datetime, trend, tweetvolume, promotedcontent</code>.
 
 ```bash
 $ head trends_gbg.csv
@@ -49,15 +49,15 @@ A CSV file of MP's from Riksdagen with their Twitter handles. The CSV file has t
 
 The list contains 278 Twitter accounts from 349 MP's (80 %). The list is likely to be incomplete and may contain errors. (It's better to store the ID of each Twitter account – if they change username, for example.)
 
-## Cite me
+## Citation
 
-If you would like to cite this open data, please use the following BibTeX:
+If you would like to cite the Twitter trends data, please use the following BibTeX:
 
 ```BibTeX
 @misc{twitter_trends_2017,
     title = {Swedish Twitter Trends},
     url = {https://snd.gu.se/en/catalogue/study/ext0271},
-    abstract = {Twitter trends from Swedish Twitter (Sweden, Stockholm, Göteborg). Trends collected every hour from 2016-03-29 to 2016-12-27 via the GET trends/place API. Data contains datetime, name of the trend, tweet volume, and whether or not the trend is promoted content.},
+    abstract = {Twitter trends from Swedish Twitter (Sweden, Stockholm, Göteborg). Trends collected every hour from 2016-03-29 and onwards via the GET trends/place API. Data contains datetime, name of the trend, tweet volume, and whether or not the trend is promoted content.},
     publisher = {Swedish National Data Service},
     author = {Dahlgren, Peter M.},
     year = {2017},
