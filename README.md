@@ -2,13 +2,20 @@
 
 Here I will gather some data collections from the Swedish Twitter.
 
-## Trends from Swedish Twitter 2014 and onwards
+## Trends from Swedish Twitter 2016 and onwards
 
 * [trends_sweden.csv](trends_sweden.csv) (Sweden, WOEID 23424954)
 * [trends_sthlm.csv](trends_sthlm.csv) (Stockholm, WOEID 906057)
 * [trends_gbg.csv](trends_gbg.csv) (Gothenburg, WOEID 890869)
 
-Twitter trends collected every hour from 2016-03-29 to 2017-10-13 (new data updated regularly). Each CSV file contains about 570,000 trends, collected via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place). The CSV file headers is <code>datetime, trend, tweetvolume, promotedcontent</code>.
+Twitter trends collected every hour from 2016-03-29 to 2017-10-13 (new data updated regularly). Each CSV file contains about 570,000 trends, collected via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place).
+
+CSV headers: 
+
+- `datetime` is when the trend was collected in format yyyy-mm-dd hh:mm.
+- `trend` is the name of the trend.
+- `tweetvolume` is the number of tweets the last 24 hours for the trend, as reported by Twitter.
+- `promotedcontent` is whether the trend is promoted content, as reported by Twitter.
 
 ```bash
 $ head trends_gbg.csv
@@ -24,6 +31,7 @@ datetime,trend,tweetvolume,promotedcontent
 2016-03-29 11:24,Lahore,175765,
 2016-03-29 11:24,#tv4nyheterna,,
 ```
+
 Load the data into R from GitHub:
 
 ```r
@@ -33,14 +41,6 @@ trends_sthlm <- read.csv("https://raw.githubusercontent.com/peterdalle/swedishtw
 
 trends_gbg <- read.csv("https://raw.githubusercontent.com/peterdalle/swedishtwitter/master/trends_gbg.csv", header=TRUE)
 ```
-
-There are also older trends:
-
-* [2014-12-18_to_2016-03-29_trends_sthlm.csv](2014-12-18_to_2016-03-29_trends_sthlm.csv)
-* [2014-12-18_to_2016-03-29_trends_sweden.csv](2014-12-18_to_2016-03-29_trends_sweden.csv)
-* [2014-12-19_to_2016-03-29_trends_gbg.csv](2014-12-19_to_2016-03-29_trends_gbg.csv)
-
-Twitter trends from Stockholm, Göteborg and Sweden from 2014-12-18 to 2016-03-29. These trends were collected every 8 hours. Each CSV file contains about 25,000 collected trends. Although there are no headers in the CSV file, the rows are simply `datetime, trend`.
 
 ### Citation
 
@@ -58,6 +58,16 @@ If you would like to use the Twitter trends data, please cite using the followin
 }
 ```
 
+## Trends from Swedish Twitter 2014 to 2016
+
+* [2014-12-18_to_2016-03-29_trends_sweden.csv](2014-12-18_to_2016-03-29_trends_sweden.csv) (Sweden, WOEID 23424954)
+* [2014-12-18_to_2016-03-29_trends_sthlm.csv](2014-12-18_to_2016-03-29_trends_sthlm.csv) (Stockholm, WOEID 906057)
+* [2014-12-19_to_2016-03-29_trends_gbg.csv](2014-12-19_to_2016-03-29_trends_gbg.csv) (Gothenburg, WOEID 890869)
+
+Twitter trends from Stockholm, Göteborg and Sweden from 2014-12-18 to 2016-03-29. These trends were collected every **8 hours**.
+
+Each CSV file contains about 25,000 collected trends. Although there are no headers in the CSV file, the rows are simply `datetime, trend` as above.
+
 ## Members of Swedish Parliament (Riksdagen) Twitter Handles
 
 [riksdagsledamoter-twitter.csv](riksdagsledamoter-twitter.csv) is a CSV file of MP's from Riksdagen with their Twitter handles. The CSV file has the header `Name, Party, Twittername`.
@@ -66,7 +76,9 @@ The list contains 278 Twitter accounts from 349 MP's (80 %). The list is likely 
 
 ## News media Twitter handles
 
-[nyhetsmedier-twitter.csv](nyhetsmedier-twitter.csv) contains news media organizations Twitter handles. The CSV file has the following headers
+[nyhetsmedier-twitter.csv](nyhetsmedier-twitter.csv) contains news media organizations Twitter handles.
+
+CSV headers:
 
 - `news` is an integer value whether the account post news (`1`) or not (`0`).
 - `opinion` is an integer value whether the account post opinion pieces (`1`) or not (`0`).
