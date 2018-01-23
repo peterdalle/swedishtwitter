@@ -2,11 +2,11 @@
 
 Here I will gather some data collections from the Swedish Twitter.
 
-## Trends from Swedish Twitter
+## Trends from Swedish Twitter 2014 and onwards
 
-* <code>trends_sweden.csv</code> (Sweden, WOEID 23424954)
-* <code>trends_sthlm.csv</code> (Stockholm, WOEID 906057)
-* <code>trends_gbg.csv</code> (Gothenburg, WOEID 890869)
+* [trends_sweden.csv](trends_sweden.csv) (Sweden, WOEID 23424954)
+* [trends_sthlm.csv](trends_sthlm.csv) (Stockholm, WOEID 906057)
+* [trends_gbg.csv](trends_gbg.csv) (Gothenburg, WOEID 890869)
 
 Twitter trends collected every hour from 2016-03-29 to 2017-10-13 (new data updated regularly). Each CSV file contains about 570,000 trends, collected via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place). The CSV file headers is <code>datetime, trend, tweetvolume, promotedcontent</code>.
 
@@ -33,25 +33,18 @@ trends_sthlm <- read.csv("https://raw.githubusercontent.com/peterdalle/swedishtw
 
 trends_gbg <- read.csv("https://raw.githubusercontent.com/peterdalle/swedishtwitter/master/trends_gbg.csv", header=TRUE)
 ```
-### Archived trends from Swedish Twitter
 
-* <code>2014-12-18_to_2016-03-29_trends_sthlm.csv</code>
-* <code>2014-12-18_to_2016-03-29_trends_sweden.csv</code>
-* <code>2014-12-19_to_2016-03-29_trends_gbg.csv</code>
+There are also older trends:
 
-Twitter trends from Stockholm, Göteborg and Sweden from 2014-12-18 to 2016-03-29. All trends were collected every 8 hours. Each CSV file contains about 25,000 collected trends.
+* [2014-12-18_to_2016-03-29_trends_sthlm.csv](2014-12-18_to_2016-03-29_trends_sthlm.csv)
+* [2014-12-18_to_2016-03-29_trends_sweden.csv](2014-12-18_to_2016-03-29_trends_sweden.csv)
+* [2014-12-19_to_2016-03-29_trends_gbg.csv](2014-12-19_to_2016-03-29_trends_gbg.csv)
 
-Although there are no headers in the CSV file, the headers is simply <code>datetime, trend</code>.
+Twitter trends from Stockholm, Göteborg and Sweden from 2014-12-18 to 2016-03-29. These trends were collected every 8 hours. Each CSV file contains about 25,000 collected trends. Although there are no headers in the CSV file, the rows are simply `datetime, trend`.
 
-## Members of Swedish Parliament (Riksdagen) Twitter Handles
+### Citation
 
-A CSV file of MP's from Riksdagen with their Twitter handles. The CSV file has the header <code>Name, Party, Twittername</code>.
-
-The list contains 278 Twitter accounts from 349 MP's (80 %). The list is likely to be incomplete and may contain errors. (It's better to store the ID of each Twitter account – if they change username, for example.)
-
-## Citation
-
-If you would like to cite the Twitter trends data, please use the following BibTeX:
+If you would like to use the Twitter trends data, please cite using the following BibTeX:
 
 ```BibTeX
 @misc{twitter_trends_2017,
@@ -64,3 +57,19 @@ If you would like to cite the Twitter trends data, please use the following BibT
     keywords = {Twitter, Trends}
 }
 ```
+
+## Members of Swedish Parliament (Riksdagen) Twitter Handles
+
+[riksdagsledamoter-twitter.csv](riksdagsledamoter-twitter.csv) is a CSV file of MP's from Riksdagen with their Twitter handles. The CSV file has the header `Name, Party, Twittername`.
+
+The list contains 278 Twitter accounts from 349 MP's (80 %). The list is likely to be incomplete and may contain errors. (It's better to store the ID of each Twitter account – if they change username, for example.)
+
+## News media Twitter handles
+
+[nyhetsmedier-twitter.csv](nyhetsmedier-twitter.csv) contains news media organizations Twitter handles. The CSV file has the following headers
+
+- `news` is an integer value whether the account post news (`1`) or not (`0`).
+- `opinion` is an integer value whether the account post opinion pieces (`1`) or not (`0`).
+- `name` is the full name of the account.
+- `twittername` is the @name of the Twitter acount.
+- `twitterid` is the ID of the Twitter account.
