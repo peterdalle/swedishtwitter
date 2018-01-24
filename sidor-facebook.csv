@@ -1,103 +1,134 @@
-media,politicalparty,pagename,pageid
-0,0,"ABF Göteborg",204628709604397
-0,0,"Afrosvenskarnas riksförbund",1423043744632690
-1,0,"Aftonbladet",124292684247609
-0,0,"Allt om islam",317629638324311
-0,0,"Allt åt alla Stockholm",180369687403
-0,0,"Anonymous Sweden",228172710552909
-0,0,"Antifascism är självförsvar",256030537889875
-1,0,"Avpixlat",1456773041274824
-1,0,"Bubbla",244909922366444
-0,1,"Centerpartiet",12690894340
-0,1,"Centerpartiets ungdomsförbund",110793008936879
-0,0,"Cyklopen",528677750491192
-1,0,"Dagens Nyheter",321961491679
-0,0,"Djurens rätt",19746853632
-1,0,"ETC",369582590803
-1,0,"Expressen",37134975344
-0,0,"Feminism underifrån",1422891258003981
-0,1,"Feministiskt initiativ",112513375470294
-0,0,"Folkkamp för asylrätt",195574290793670
-0,0,"Freds och skiljedomsföreningen",127063960674693
-0,0,"Företagarnas Riksförbund",124892400864698
-0,0,"Galago",115702118491956
-0,0,"Glänta",128439233871779
-1,0,"GP Ledare",915684658452138
-0,0,"Greenpeace Sverige",95735961890
-0,1,"Grön ungdom",113234935374946
-0,0,"Hemslöjden",296285327106241
-0,0,"Individuell människhjälp",113006852188985
-0,0,"Inte rasist men",210114715755977
-0,0,"Ja till trängselskatt i Göteborg",356775831071782
-0,0,"Judiska församlingen Stockholm",105131542852545
-0,0,"Kommunal",179931025357058
-0,1,"Kommunistiska partiet",152953178070559
-0,0,"Kontrapunkt",176219345754217
-0,1,"Kristdemokraterna",115198178364
-0,1,"Kristdemokratiska ungdomsförbundet",177549278946958
-0,0,"Kulturhuset Jönköping",103180474992
-0,0,"Kungahuset",133515803374007
-0,0,"LCHF Fakta och Debatt",515119345177700
-0,1,"Liberala partiet",194555880406
-0,1,"Liberala ungdomsförbundet",108941769135355
-0,1,"Liberalerna",132266740623
-0,0,"Livsmedelsverket",117067621647704
-0,0,"LO",163820136238
-0,0,"Läkare utan gränser",800360196753998
-0,1,"Miljöpartiet",34780126150
-0,1,"Moderata ungdomsförbundet",139375052786521
-0,1,"Moderaterna",7719591155
-0,0,"Motormännens riksförbund",281307768603480
-0,0,"Musikerförbundet",63554872384
-0,0,"Muslimsk kvinna",299623940189416
-0,0,"Nej till trängselskatt i Göteborg",104188036293500
-0,0,"No Pegida Sweden",391683337659508
-1,0,"Nyheter Idag",647421441984111
-0,0,"Nyval NU",536557109828124
-0,0,"Nätverket Linje 17",192100317482100
-0,0,"Nätverket Ofog",284662214922092
-0,0,"Occupy Sweden",171089306306925
-0,0,"Pegida Sweden",1436446579978630
-0,1,"Piratpartiet",7336236196
-0,0,"planka.nu",60883417696
-0,0,"Politikfakta",274070532684689
-0,0,"Refugees Welcome Stockholm",538286309669991
-0,0,"Riv upp DÖ",479191938888400
-0,0,"Romers rättigheter",183309435339674
-0,0,"Rättviseförmedlingen",361481469749
-1,0,"Samhällsnytt",1916606461940878
-0,0,"Scouterna",111005714391
-0,0,"SDNejTack",142027660912
-0,0,"Skattebetalarnas förening",72832167834
-0,1,"Socialdemokraterna",8040892957
-0,0,"Soldiers of Odin Sweden",253750258297512
-1,0,"SR P1",102331493143871
-0,1,"SSU",45101268520
-0,0,"Stoppa maktmissbruket",1054122034605760
-0,0,"Stoppa TTIP Sweden",1481053882109899
-0,0,"Stoppa västlänken nu",35630384565
-0,0,"Supersnippan",169647209730395
-1,0,"SvD",96178346173
-0,0,"Svenska kommitten mot antisemitism",101762947469
-0,0,"Svenska kyrkan",15223945415
-0,1,"Sverigedemokraterna",676246449160270
-0,1,"Sverigedemokratisk ungdom",160333517324943
-0,0,"Sveriges Kvinnolobby",181409445272366
-1,0,"Sveriges Radio",146516072147644
-0,0,"Sverok",391759218754
-1,0,"SVT",152358601473403
-1,0,"Tidskriften EXPO",53779680285
-0,1,"Ung pirat",92683221988
-0,1,"Ung vänster",293573868390
-0,0,"Unicef Sverige",59324455950
-0,0,"Vaken.se",4926532303
-0,0,"Vetenskap och Folkbildning",2362213620
-0,0,"Vi avslöjar rasisterna",1642166096066888
-0,0,"Vi gillar olika",117963821590139
-0,0,"Vi som stödjer sveriges medborgargarde",124275634443303
-0,0,"Vi som vill avveckla Livsmedelsverket",667917029919842
-0,0,"Vi som älskar att mysa",140964994153
-0,0,"Vi som älskar fredagsmys",290035680194
-0,1,"Vänsterpartiet",323156205347
-0,0,"Världsnaturfonden WWF",371791194529
-0,0,"Yimby Göteborg",18858735822
+0,0,0,"ABF Göteborg",204628709604397,"https://www.facebook.com/abfgoteborg/"
+0,0,0,"Afrosvenskarnas riksförbund",1423043744632690,"https://www.facebook.com/Afrosvenskarnas-Riksförbund-ASR-1423043744632690/"
+0,0,0,"Allt om islam",317629638324311,"https://www.facebook.com/alltomislam.sida/"
+0,0,0,"Cyklopen",528677750491192,"https://www.facebook.com/cyklopen/"
+0,0,0,"Djurens rätt",19746853632,"https://www.facebook.com/djurensratt/"
+0,0,0,"Fackliga argument inför valet 2018",873062626183109,"https://www.facebook.com/Fackliga-argument-inf%C3%B6r-valet-2018-873062626183109"
+0,0,0,"Freds och skiljedomsföreningen",127063960674693,"https://www.facebook.com/svenskafreds/"
+0,0,0,"Företagarnas Riksförbund",124892400864698,"https://www.facebook.com/foretagarnariks/"
+0,0,0,"Galago",115702118491956,"https://www.facebook.com/Galagoforlag/"
+0,0,0,"Glänta",128439233871779,"https://www.facebook.com/glanta/"
+0,0,0,"Greenpeace Sverige",95735961890,"https://www.facebook.com/greenpeace.sverige/"
+0,0,0,"Hemslöjden",296285327106241,"https://www.facebook.com/hemslojdens/"
+0,0,0,"Isabella Löwengrip",128749193837105,"https://www.facebook.com/isabella.lowengrip/"
+0,0,0,"Judiska församlingen Stockholm",105131542852545,"https://www.facebook.com/Judiska-f%C3%B6rsamlingen-i-Stockholm-105131542852545/"
+0,0,0,"Kommunal",179931025357058,"https://www.facebook.com/facketkommunal/"
+0,0,0,"Kontrapunkt",176219345754217,"https://www.facebook.com/KontrapunktMalmo/"
+0,0,0,"Kulturhuset Jönköping",103180474992,"https://www.facebook.com/kulturhusetjkpg/"
+0,0,0,"Kungahuset",133515803374007,"https://www.facebook.com/Kungahuset/"
+0,0,0,"LCHF Fakta och Debatt",515119345177700,"https://www.facebook.com/LCHF.FactsandDebate/"
+0,0,0,"Livsmedelsverket",117067621647704,"https://www.facebook.com/livsmedelsverket/"
+0,0,0,"LO",163820136238,"https://www.facebook.com/LOSverige/"
+0,0,0,"Läkare utan gränser",800360196753998,"https://www.facebook.com/groups/800360196753998/about/"
+0,0,0,"Motormännens riksförbund",281307768603480,"https://www.facebook.com/motormannenriks/"
+0,0,0,"Musikerförbundet",63554872384,"https://www.facebook.com/musikerforbundet/"
+0,0,0,"Nätverket Linje 17",192100317482100,"https://www.facebook.com/Linje17/"
+0,0,0,"Rättviseförmedlingen",361481469749,"https://www.facebook.com/rattviseformedlingen/"
+0,0,0,"Scouterna",111005714391,"https://www.facebook.com/scouterna/"
+0,0,0,"Skattebetalarnas förening",72832167834,"https://www.facebook.com/skattebetalarnas.forening/"
+0,0,0,"Soldiers of Odin Sweden",253750258297512,"https://www.facebook.com/soosweden/"
+0,0,0,"Stoppa maktmissbruket",1054122034605760,"https://www.facebook.com/groups/1054122034605760/about/"
+0,0,0,"Stoppa TTIP Sweden",1481053882109899,"https://www.facebook.com/stoppattip/"
+0,0,0,"Supersnippan",169647209730395,"https://www.facebook.com/Supersnippan/"
+0,0,0,"Svenska kommitten mot antisemitism",101762947469,"https://www.facebook.com/Svenska-kommitt%C3%A9n-mot-antisemitism-SKMA-101762947469/"
+0,0,0,"Svenska kyrkan",15223945415,"https://www.facebook.com/svenskakyrkan/"
+0,0,0,"Sveriges Kvinnolobby",181409445272366,"https://www.facebook.com/sverigeskvinnolobby/"
+0,0,0,"Sverok",391759218754,"https://www.facebook.com/Sverok/"
+0,0,0,"Underbara Clara",140648022647356,"https://www.facebook.com/underbaraclara/"
+0,0,0,"Unicef Sverige",59324455950,"https://www.facebook.com/UNICEF-Sverige/"
+0,0,0,"Vaken.se",4926532303,"https://www.facebook.com/groups/vaken/about/"
+0,0,0,"Vetenskap och Folkbildning",2362213620,"https://www.facebook.com/groups/vetenskapochfolkbildning/"
+0,0,0,"Vi avslöjar rasisterna",1642166096066888,"https://www.facebook.com/viavslojarR/"
+0,0,0,"Vi gillar olika",117963821590139,"https://www.facebook.com/vigillarolika/"
+0,0,0,"Vi som vill avveckla Livsmedelsverket",667917029919842,"https://www.facebook.com/groups/667917029919842/about/"
+0,0,0,"Vi som älskar att mysa",140964994153,"https://www.facebook.com/visomalskarattmysa/"
+0,0,0,"Vi som älskar fredagsmys",290035680194,"https://www.facebook.com/mysfredag/"
+0,0,0,"Världsnaturfonden WWF",371791194529,"https://www.facebook.com/VarldsnaturfondenWWF/"
+0,0,1,"Allt åt alla Stockholm",180369687403,"https://www.facebook.com/AaASthlm/"
+0,0,1,"Antifascism är självförsvar",256030537889875,"https://www.facebook.com/antifascism/"
+0,0,1,"Feminism underifrån",1422891258003981,"https://www.facebook.com/feminismunderifran/"
+0,0,1,"Folkkamp för asylrätt",195574290793670,"https://www.facebook.com/folkkampanjforasylratt/"
+0,0,1,"Individuell människhjälp",113006852188985,"https://www.facebook.com/manniskohjalp/"
+0,0,1,"Inte rasist men",210114715755977,"https://www.facebook.com/irm.se/"
+0,0,1,"Ja till trängselskatt i Göteborg",356775831071782,"https://www.facebook.com/JaTillTrangselskattIGoteborg/"
+0,0,1,"Nej till trängselskatt i Göteborg",104188036293500,"https://www.facebook.com/Nej-till-tr%C3%A4ngselskatt-i-G%C3%B6teborg-104188036293500/"
+0,0,1,"No Pegida Sweden",391683337659508,"https://www.facebook.com/nopegida.sverige/"
+0,0,1,"Nätverket Ofog",284662214922092,"https://www.facebook.com/natverket.ofog/"
+0,0,1,"Occupy Sweden",171089306306925,"https://www.facebook.com/OccupySweden/"
+0,0,1,"Pegida Sweden",1436446579978630,"https://www.facebook.com/PEGIDA-Sverige-1436446579978630/"
+0,0,1,"planka.nu",60883417696,"https://www.facebook.com/planka.nu/"
+0,0,1,"Politikfakta",274070532684689,"https://www.facebook.com/politikfakta/"
+0,0,1,"Refugees Welcome Stockholm",538286309669991,"https://www.facebook.com/refugeeswelcomestockholm/"
+0,0,1,"Riv upp DÖ",479191938888400,"https://www.facebook.com/DemokratiskFramtid/"
+0,0,1,"Romers rättigheter",183309435339674,"https://www.facebook.com/romersrattigheter/"
+0,0,1,"SDNejTack",142027660912,"https://www.facebook.com/SDNejTack/"
+0,0,1,"Slöseriombudsmannen",408171019221426,"https://www.facebook.com/sloseriombudsmannen/"
+0,0,1,"Stoppa västlänken nu",35630384565,"https://www.facebook.com/groups/stoppavastlankennu/about/"
+0,0,1,"Vi som inte tänker rösta på Alliansen eller SD i valet 2018",168262429857435,"https://www.facebook.com/visomintetankerrostapaalliansenivalet2014"
+0,0,1,"Yimby Göteborg",18858735822,"https://www.facebook.com/groups/18858735822/about/"
+0,1,0,"Centerpartiet",12690894340,"https://www.facebook.com/centerpartiet/"
+0,1,0,"Centerpartiets ungdomsförbund",110793008936879,"https://www.facebook.com/cufswe/"
+0,1,0,"Feministiskt initiativ",112513375470294,"https://www.facebook.com/feministisktinitiativ/"
+0,1,0,"Grön ungdom",113234935374946,"https://www.facebook.com/GronUngdom/"
+0,1,0,"Kommunistiska partiet",152953178070559,"https://www.facebook.com/kommunisterna/"
+0,1,0,"Kristdemokraterna",115198178364,"https://www.facebook.com/Kristdemokraterna/"
+0,1,0,"Kristdemokratiska ungdomsförbundet",177549278946958,"https://www.facebook.com/KDUSVERIGE/"
+0,1,0,"Liberala partiet",194555880406,"https://www.facebook.com/liberalapartiet/"
+0,1,0,"Liberala ungdomsförbundet",108941769135355,"https://www.facebook.com/liberalaungdomsforbundet/"
+0,1,0,"Liberalerna",132266740623,"https://www.facebook.com/liberalernas/"
+0,1,0,"Miljöpartiet",34780126150,"https://www.facebook.com/miljopartiet/"
+0,1,0,"Moderata ungdomsförbundet",139375052786521,"https://www.facebook.com/mufswe/"
+0,1,0,"Moderaterna",7719591155,"https://www.facebook.com/moderaterna/"
+0,1,0,"Piratpartiet",7336236196,"https://www.facebook.com/piratpartiet/"
+0,1,0,"Socialdemokraterna",8040892957,"https://www.facebook.com/socialdemokraterna/"
+0,1,0,"SSU",45101268520,"https://www.facebook.com/ssusverige/"
+0,1,0,"Sverigedemokraterna",676246449160270,"https://www.facebook.com/sverigedemokraterna/"
+0,1,0,"Sverigedemokratisk ungdom",160333517324943,"https://www.facebook.com/sdungdom/"
+0,1,0,"Ung pirat",92683221988,"https://www.facebook.com/ungpirat/"
+0,1,0,"Ung vänster",293573868390,"https://www.facebook.com/ungvanster/"
+0,1,0,"Vänsterpartiet",323156205347,"https://www.facebook.com/vansterpartiet/"
+1,0,0,"Aftonbladet",124292684247609,"https://www.facebook.com/aftonbladet/"
+1,0,0,"Avpixlat",1456773041274824,"https://www.facebook.com/samnytt2/"
+1,0,0,"Bubbla",244909922366444,"https://www.facebook.com/nyhetsbubbla/"
+1,0,0,"Dagens Nyheter",321961491679,"https://www.facebook.com/dn.se/"
+1,0,0,"ETC",369582590803,"https://www.facebook.com/ETCtidningarna/"
+1,0,0,"Expressen",37134975344,"https://www.facebook.com/expressen/"
+1,0,0,"GP Ledare",915684658452138,"https://www.facebook.com/GP-ledare-915684658452138/"
+1,0,0,"Nyheter Idag",647421441984111,"https://www.facebook.com/nyheteridag/"
+1,0,0,"Nyheter24 Debatt",340991739443696,"https://www.facebook.com/nyheter24debatt/"
+1,0,0,"Nyheter24",112920858743936,"https://www.facebook.com/nyheter24/"
+1,0,0,"Omni",471766916244326,"https://www.facebook.com/omniredaktionen/"
+1,0,0,"P3 Nyheter",158686186756,"https://www.facebook.com/P3Nyheter/"
+1,0,0,"Samhällsnytt",1916606461940878,"https://www.facebook.com/samnytt/"
+1,0,0,"SR P1",102331493143871,"https://www.facebook.com/sverigesradiop1/"
+1,0,0,"Stiftelsen Expo",208751565805849,"https://www.facebook.com/stiftelsenexpo/"
+1,0,0,"SvD",96178346173,"https://www.facebook.com/svenskadagbladet/"
+1,0,0,"Sveriges Radio",146516072147644,"https://www.facebook.com/sverigesradio/"
+1,0,0,"SVT Kulturnyheterna",194434097233,"https://www.facebook.com/SVTKulturnyheterna/"
+1,0,0,"SVT Nyheter Blekinge",1611837889037395,"https://www.facebook.com/svtnyheterblekinge/"
+1,0,0,"SVT Nyheter Dalarna",421988034504765,"https://www.facebook.com/svtnyheterdalarna/"
+1,0,0,"SVT Nyheter Gävleborg"610667052371888,"https://www.facebook.com/svtnyhetergavleborg/"
+1,0,0,"SVT Nyheter Halland"315145462017481,"https://www.facebook.com/svtnyheterhalland/"
+1,0,0,"SVT Nyheter Helsingborg",1547863862141785,"https://www.facebook.com/svtnyheterhelsingborg/"
+1,0,0,"SVT Nyheter Jämtland"396190677209056,"https://www.facebook.com/svtnyheterjamtland/"
+1,0,0,"SVT Nyheter Jönköping",858493157545733,"https://www.facebook.com/svtnyheterjonkoping/"
+1,0,0,"SVT Nyheter Norrbotten"111500025531929,"https://www.facebook.com/svtnyheternorrbotten/"
+1,0,0,"SVT Nyheter Nyhetstecken",115389561815700,"https://www.facebook.com/svtnyhetstecken/"
+1,0,0,"SVT Nyheter Skåne"115466795147508,"https://www.facebook.com/svtnyheterskane/"
+1,0,0,"SVT Nyheter Småland"187314909461,"https://www.facebook.com/svtnyhetersmaland/"
+1,0,0,"SVT Nyheter Stockholm"368058114605,"https://www.facebook.com/svtnyheterstockholm/"
+1,0,0,"SVT Nyheter Södertälje"405516342965116,"https://www.facebook.com/svtnyhetersodertalje/"
+1,0,0,"SVT Nyheter Sörmland"661446230614210,"https://www.facebook.com/svtnyhetersormland/"
+1,0,0,"SVT Nyheter Uppasala",767529806613711,"https://www.facebook.com/svtnyheteruppsala/"
+1,0,0,"SVT Nyheter Värmland"257352644358707,"https://www.facebook.com/svtnyhetervarmland/"
+1,0,0,"SVT Nyheter Väst",119615201531626,"https://www.facebook.com/svtnyhetervast/"
+1,0,0,"SVT Nyheter Västerbotten",163477356171,"https://www.facebook.com/svtnyhetervasterbotten/"
+1,0,0,"SVT Nyheter Västernorrland",114481681908184,"https://www.facebook.com/svtnyhetervasternorrland/"
+1,0,0,"SVT Nyheter Västmanland",798921863496944,"https://www.facebook.com/svtnyhetervastmanland/"
+1,0,0,"SVT Nyheter Örebro",121694704533831,"https://www.facebook.com/svtnyheterorebro/"
+1,0,0,"SVT Nyheter Öst"192708919794,"https://www.facebook.com/svtnyheterost/"
+1,0,0,"SVT Nyheter",266876443341903,"https://www.facebook.com/svtnyheter"
+1,0,0,"SVT Opinion",818390738190641,"https://www.facebook.com/svtopinion/"
+1,0,0,"SVT",152358601473403,"https://www.facebook.com/svt"
+1,0,0,"TV4 Nyheterna",557501950976234,"https://www.facebook.com/tv4nyheterna/"
+1,0,0,"Viralgranskaren",472089809557926,"https://www.facebook.com/viralgranskaren/"
