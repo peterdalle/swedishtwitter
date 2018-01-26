@@ -94,7 +94,7 @@ CSV headers:
 
 ## Facebook Pages
 
-[facebook/sidor-facebook.csv](facebook/sidor-facebook.csv) contains Swedish Facebook pages, primarily news organizations and political parties but.
+[facebook/sidor-facebook.csv](facebook/sidor-facebook.csv) contains Swedish Facebook pages, primarily news organizations and political parties.
 
 CSV headers:
 
@@ -106,3 +106,5 @@ CSV headers:
 - `url` is the URL to the page on facebook.com.
 
 The first three fields (media, politicalparty and politics) are not necessarily accurate at the moment.
+
+Many of the pages are found via <https://gist.github.com/christopherkullenberg/07b38d18de8e747387c2d00915dba327> and then expanded with more details.
