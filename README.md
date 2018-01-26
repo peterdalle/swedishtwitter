@@ -4,9 +4,9 @@ Here I will gather some data collections from the Swedish Twitter.
 
 ## Trends from Swedish Twitter 2016 and onwards
 
-* [trends_sweden.csv](trends_sweden.csv) (Sweden, WOEID 23424954)
-* [trends_sthlm.csv](trends_sthlm.csv) (Stockholm, WOEID 906057)
-* [trends_gbg.csv](trends_gbg.csv) (Gothenburg, WOEID 890869)
+* [trends/trends_sweden.csv](trends/trends_sweden.csv) (Sweden, WOEID 23424954)
+* [trends/trends_sthlm.csv](trends/trends_sthlm.csv) (Stockholm, WOEID 906057)
+* [trends/trends_gbg.csv](trends/trends_gbg.csv) (Gothenburg, WOEID 890869)
 
 Twitter trends collected every hour from 2016-03-29 to 2017-10-13 (new data updated regularly). Each CSV file contains about 570,000 trends, collected via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place).
 
@@ -35,11 +35,11 @@ datetime,trend,tweetvolume,promotedcontent
 Load the data into R from GitHub:
 
 ```r
-trends_sweden <- read.csv("https://raw.githubusercontent.com/peterdalle/swedishtwitter/master/trends_sweden.csv", header=TRUE)
+trends_sweden <- read.csv("https://raw.githubusercontent.com/peterdalle/swedishtwitter/master/trends/trends_sweden.csv", header=TRUE)
 
-trends_sthlm <- read.csv("https://raw.githubusercontent.com/peterdalle/swedishtwitter/master/trends_sthlm.csv", header=TRUE)
+trends_sthlm <- read.csv("https://raw.githubusercontent.com/peterdalle/swedishtwitter/master/trends/trends_sthlm.csv", header=TRUE)
 
-trends_gbg <- read.csv("https://raw.githubusercontent.com/peterdalle/swedishtwitter/master/trends_gbg.csv", header=TRUE)
+trends_gbg <- read.csv("https://raw.githubusercontent.com/peterdalle/swedishtwitter/master/trends/trends_gbg.csv", header=TRUE)
 ```
 
 ### Citation
@@ -60,9 +60,9 @@ If you would like to use the Twitter trends data, please cite using the followin
 
 ## Trends from Swedish Twitter 2014 to 2016
 
-* [2014-12-18_to_2016-03-29_trends_sweden.csv](2014-12-18_to_2016-03-29_trends_sweden.csv) (Sweden, WOEID 23424954)
-* [2014-12-18_to_2016-03-29_trends_sthlm.csv](2014-12-18_to_2016-03-29_trends_sthlm.csv) (Stockholm, WOEID 906057)
-* [2014-12-19_to_2016-03-29_trends_gbg.csv](2014-12-19_to_2016-03-29_trends_gbg.csv) (Gothenburg, WOEID 890869)
+* [trends/2014-12-18_to_2016-03-29_trends_sweden.csv](trends/2014-12-18_to_2016-03-29_trends_sweden.csv) (Sweden, WOEID 23424954)
+* [trends/2014-12-18_to_2016-03-29_trends_sthlm.csv](trends/2014-12-18_to_2016-03-29_trends_sthlm.csv) (Stockholm, WOEID 906057)
+* [trends/2014-12-19_to_2016-03-29_trends_gbg.csv](trends/2014-12-19_to_2016-03-29_trends_gbg.csv) (Gothenburg, WOEID 890869)
 
 Twitter trends from Stockholm, Göteborg and Sweden from 2014-12-18 to 2016-03-29. These trends were collected every **8 hours**.
 
@@ -70,7 +70,7 @@ Each CSV file contains about 25,000 collected trends. Although there are no head
 
 ## Members of Swedish Parliament (Riksdagen) Twitter Handles
 
-[riksdagsledamoter-twitter.csv](riksdagsledamoter-twitter.csv) is a CSV file of MP's from Riksdagen with their Twitter handles. The CSV file has the header `Name, Party, Twittername`.
+[twitter/riksdagsledamoter-twitter.csv](twitter/riksdagsledamoter-twitter.csv) is a CSV file of MP's from Riksdagen with their Twitter handles. The CSV file has the header `Name, Party, Twittername`.
 
 The list contains 278 Twitter accounts from 349 MP's (80 %). The list is likely to be incomplete and may contain errors. (It's better to store the ID of each Twitter account – if they change username, for example.)
 
@@ -82,7 +82,7 @@ CSV headers:
 
 ## News media Twitter handles
 
-[nyhetsmedier-twitter.csv](nyhetsmedier-twitter.csv) contains news media organizations Twitter handles.
+[twitter/nyhetsmedier-twitter.csv](twitter/nyhetsmedier-twitter.csv) contains news media organizations Twitter handles.
 
 CSV headers:
 
@@ -94,7 +94,7 @@ CSV headers:
 
 ## Facebook Pages
 
-[sidor-facebook.csv](sidor-facebook.csv) contains Swedish Facebook pages, primarily news organizations and political parties but.
+[facebook/sidor-facebook.csv](facebook/sidor-facebook.csv) contains Swedish Facebook pages, primarily news organizations and political parties but.
 
 CSV headers:
 
