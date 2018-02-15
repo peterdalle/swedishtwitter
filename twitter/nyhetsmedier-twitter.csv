@@ -1,24 +1,40 @@
 news,opinion,name,twittername,twitterid
-1,0,"Dagens Nyheter","dagensnyheter",592490041
-1,0,"Svenska Dagbladet","svd",26489325
-1,0,"Göteborgs-Posten","goteborgsposten",48356270
-1,0,"Aftonbladet","aftonbladet",37706685
-0,1,"Aftonbladet Ledare","bladetledare",18976566
 0,0,"Aftonbladet Retro","aftretro",3016904381
-0,1,"Aftonbladet Kultur","aftonbladetk",574414434
-0,1,"Aftonbladet Debatt","abdebatt",68667032
 0,0,"Aftonbladet Spela","ab_spela",108298575
-1,0,"Expressen","expressen",2097191
+0,0,"Ekot lördagsintervju","lordagsintervju",1664803388
+0,0,"Expressen Sport","sportexpressen",112420254
+0,0,"Expressen Utveckling","expressenutv",122018315
+0,0,"SVT Sport","svtsport",106846483
+0,0,"SVT","svt",507156309
+0,1,"Aftonbladet Debatt","abdebatt",68667032
+0,1,"Aftonbladet Kultur","aftonbladetk",574414434
+0,1,"Aftonbladet Ledare","bladetledare",18976566
+0,1,"DN Debatt","DNDebatt",83585393
+0,1,"DN Kultur","DNKultur",116888013
 0,1,"Expressen Debatt","expressendebatt",105104279
 0,1,"Expressen Ledare","expressenkultur",19179185
-1,0,"Expressen TV","expressentv",1346562020
-0,0,"Expressen Utveckling","expressenutv",122018315
-0,0,"Expressen Sport","sportexpressen",112420254
-0,0,"SVT","svt",507156309
-1,0,"SVT Nyheter","svtnyheter",372142346
-0,1,"SVT Opinion","svtopinion",19186613
-0,0,"SVT Sport","svtsport",106846483
-1,0,"TV4 Nyheterna","nyheterna",87793521
-1,0,"SR Ekot","sr_ekot",18761673
-0,0,"Ekot lördagsintervju","lordagsintervju",1664803388
 0,1,"Göteborgs-Posten Ledare","GPledare",822905954
+0,1,"SVT Opinion","svtopinion",19186613
+1,0,"Aftonbladet","aftonbladet",37706685
+1,0,"Dagens Nyheter","dagensnyheter",592490041
+1,0,"DN Stockholm","dn_sthlm",368400919
+1,0,"Expressen Nöje","ExpressenNoje",112420815
+1,0,"Expressen TV","expressentv",1346562020
+1,0,"Expressen","expressen",2097191
+1,0,"Göteborgs-Posten","goteborgsposten",48356270
+1,0,"Nyhetsverket,"Nyhetsverket",17805905
+1,0,"Omni","omni_red",1479340489
+1,0,"P3 Nyheter","P3Nyheter",19981221
+1,0,"P4 Göteborg","P4Goteborg",48342258
+1,0,"SE Nyheter","SENyheter",1333475107
+1,0,"SR Ekot","sr_ekot",18761673
+1,0,"SR Nyheter", "SR_Nyheter",18759751
+1,0,"Svenska Dagbladet","svd",26489325
+1,0,"SVT Nyheter","svtnyheter",372142346
+1,0,"SVT Stockholm","svtstockholm",46099055
+1,0,"SVT Väst","svtvast",70626484
+1,0,"Södermanlands nyheter","snnyheter",467295188
+1,0,"Tidningen Arbetet","tidn_arbetet",19654850
+1,0,"TV4 Nyheterna","nyheterna",87793521
+1,0,"Vallentuna Nyheter","vallentunanyhet",2990455390
+1,0,"Växjö nyheter","vaxjonyheter",2987145267
