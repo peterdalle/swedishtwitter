@@ -4,11 +4,11 @@ Here I will gather some data collections from the Swedish Twitter.
 
 ## Trends from Swedish Twitter 2016 and onwards
 
-* [trends/trends_sweden.csv](trends/trends_sweden.csv) (Sweden, WOEID 23424954)
-* [trends/trends_sthlm.csv](trends/trends_sthlm.csv) (Stockholm, WOEID 906057)
-* [trends/trends_gbg.csv](trends/trends_gbg.csv) (Gothenburg, WOEID 890869)
+* [trends/trends_sweden.7z](trends/trends_sweden.7z) (Sweden, WOEID 23424954)
+* [trends/trends_sthlm.7z](trends/trends_sthlm.7z) (Stockholm, WOEID 906057)
+* [trends/trends_gbg.7z](trends/trends_gbg.7z) (Gothenburg, WOEID 890869)
 
-Twitter trends collected every hour from 2016-03-29 onwards (new data updated regularly). Each CSV file currently contains about 740,000 trends, collected via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place).
+Twitter trends collected every hour from 2016-03-29 onwards (new data updated regularly). Each CSV file (which is compressed with [7-zip](https://www.7-zip.org)) currently contains about 740,000 trends, collected via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place). 
 
 CSV headers: 
 
@@ -30,16 +30,6 @@ datetime,trend,tweetvolume,promotedcontent
 2016-03-29 11:24,Tjeckien,,
 2016-03-29 11:24,Lahore,175765,
 2016-03-29 11:24,#tv4nyheterna,,
-```
-
-Load data into R:
-
-```r
-trends_sweden <- read.csv("https://raw.githubusercontent.com/peterdalle/swedishtwitter/master/trends/trends_sweden.csv", header=TRUE)
-
-trends_sthlm <- read.csv("https://raw.githubusercontent.com/peterdalle/swedishtwitter/master/trends/trends_sthlm.csv", header=TRUE)
-
-trends_gbg <- read.csv("https://raw.githubusercontent.com/peterdalle/swedishtwitter/master/trends/trends_gbg.csv", header=TRUE)
 ```
 
 ### Citation
