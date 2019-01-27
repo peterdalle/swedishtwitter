@@ -1,4 +1,4 @@
-# Swedish Twitter -- Trends
+# Swedish Twitter - Trends
 
 About one million hashtags from 2014 and onwards from three locations have been collected via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place):
 
@@ -58,7 +58,7 @@ This will load hashtags from the location Sweden. Just replace `sweden` in the f
 df1 <- read.csv("2014-12-18_to_2016-03-29_trends_sweden.csv.zip",
                 header=TRUE, sep=",", encoding="UTF-8")
 
-# Read CSVfile with 4 headers: datetime,trend,tweetvolume,promotedcontent
+# Read CSV file with 4 headers: datetime,trend,tweetvolume,promotedcontent
 df2 <- read.csv("2016-03-29_to_2018-07-20_trends_sweden.csv.zip",
                 header=TRUE, sep=",", encoding="UTF-8")
 df3 <- read.csv("trends_sweden.csv.zip", header=TRUE, sep=",", encoding="UTF-8")
