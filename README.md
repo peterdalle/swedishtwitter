@@ -4,57 +4,7 @@ Here I will gather some data collections from the Swedish Twitter.
 
 ## Trends from Swedish Twitter 2016 and onwards
 
-* [trends/trends_sweden.7z](trends/trends_sweden.7z) (Sweden, WOEID 23424954)
-* [trends/trends_sthlm.7z](trends/trends_sthlm.7z) (Stockholm, WOEID 906057)
-* [trends/trends_gbg.7z](trends/trends_gbg.7z) (Gothenburg, WOEID 890869)
-
-Twitter trends collected every hour from 2016-03-29 onwards (new data updated regularly). Each CSV file (which is compressed with [7-zip](https://www.7-zip.org)) currently contains about 740,000 trends, collected via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place). 
-
-CSV headers: 
-
-- `datetime` is when the trend was collected in format yyyy-mm-dd hh:mm.
-- `trend` is the name of the trend.
-- `tweetvolume` is the number of tweets the last 24 hours for the trend, as reported by Twitter.
-- `promotedcontent` is whether the trend is promoted content, as reported by Twitter.
-
-```bash
-$ head trends_gbg.csv
-
-datetime,trend,tweetvolume,promotedcontent
-2016-03-29 11:24,Avicii,,
-2016-03-29 11:24,Cypern,,
-2016-03-29 11:24,#EgyptAir,122209,
-2016-03-29 11:24,#svmed,,
-2016-03-29 11:24,Larnaca,33662,
-2016-03-29 11:24,#KEIOSFESTIVAL16,,
-2016-03-29 11:24,Tjeckien,,
-2016-03-29 11:24,Lahore,175765,
-2016-03-29 11:24,#tv4nyheterna,,
-```
-
-### Citation
-
-If you would like to use the Twitter trends data, please cite using the following BibTeX:
-
-```BibTeX
-@misc{twitter_trends_2017,
-    title = {Swedish Twitter Trends},
-    url = {https://snd.gu.se/en/catalogue/study/ext0271},
-    abstract = {Twitter trends from Swedish Twitter (Sweden, Stockholm, Göteborg). Trends collected every hour from 2016-03-29 and onwards via the GET trends/place API. Data contains datetime, name of the trend, tweet volume, and whether or not the trend is promoted content.},
-    publisher = {Swedish National Data Service},
-    author = {Dahlgren, Peter M.},
-    year = {2017},
-    keywords = {Twitter, Trends}
-}
-```
-
-## Trends from Swedish Twitter 2014 to 2016
-
-* [trends/2014-12-18_to_2016-03-29_trends_sweden.csv](trends/2014-12-18_to_2016-03-29_trends_sweden.csv) (Sweden, WOEID 23424954)
-* [trends/2014-12-18_to_2016-03-29_trends_sthlm.csv](trends/2014-12-18_to_2016-03-29_trends_sthlm.csv) (Stockholm, WOEID 906057)
-* [trends/2014-12-19_to_2016-03-29_trends_gbg.csv](trends/2014-12-19_to_2016-03-29_trends_gbg.csv) (Gothenburg, WOEID 890869)
-
-Twitter trends from Stockholm, Göteborg and Sweden from 2014-12-18 to 2016-03-29. These trends were collected every **8 hours**. Each CSV file contains about 25,000 collected trends. Although there are no headers in the CSV file, the rows are simply `datetime, trend`.
+About [one million hashtags](trends/) from Sweden, Stockholm and Gothenburg.
 
 ## Members of Swedish Parliament (Riksdagen) Twitter Handles
 
