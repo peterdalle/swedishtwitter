@@ -1,6 +1,6 @@
 # Swedish Twitter - Trends
 
-About three million hashtags in total from 2014 and onwards from three locations have been collected every hour via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place):
+About three million trends (e.g., hashtags) in total from 2014 and onwards from three locations have been collected every hour via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place):
 
 * Sweden (WOEID 23424954)
 * Stockholm (WOEID 906057)
@@ -11,7 +11,7 @@ About three million hashtags in total from 2014 and onwards from three locations
 Header | Description
 :---------- | :--------------------------
 `datetime` | when the trend was collected in format `yyyy-mm-dd hh:mm`.
-`trend` | name of the trend.
+`trend` | name of the trend (e.g., hashtag).
 `tweetvolume` | number of tweets the last 24 hours for the trend, as reported by Twitter.
 `promotedcontent` | whether the trend is promoted content, as reported by Twitter.
 
@@ -50,9 +50,9 @@ datetime,trend,tweetvolume,promotedcontent
 2016-03-29 11:24,#tv4nyheterna,,
 ```
 
-## R code to load hashtags
+## R code to load trends
 
-This will load hashtags from the location Sweden.
+This will load trends from the location Sweden.
 
 ```r
 # Read CSV file with 2 headers: datetime,trend
@@ -69,13 +69,13 @@ df1$tweetvolume <- NA
 df1$promotedcontent <- NA
 
 # Combine all rows into a single data frame.
-hashtags <- rbind(df1, df2, df3)
+trends <- rbind(df1, df2, df3)
 
 # Delete temporary data frames.
 rm(df1, df2, df3)
 
-# How many hashtags do we have?
-nrow(hashtags)
+# How many trends do we have?
+nrow(trends)
 ```
 
 ## How are trends determined?
