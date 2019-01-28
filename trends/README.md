@@ -49,7 +49,7 @@ Gothenburg | [trends_gbg.csv.zip](trends_gbg.csv.zip) | Every 1 hour* | 156,143 
 
 \* Collected from 2018-11-21 and onwards (data is missing 2018-07-20 to 2018-11-21 due to a server crash).
 
-## R code to load tweets
+## R code to load hashtags
 
 This will load hashtags from the location Sweden.
 
