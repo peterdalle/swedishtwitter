@@ -15,22 +15,6 @@ Header | Description
 `tweetvolume` | number of tweets the last 24 hours for the trend, as reported by Twitter.
 `promotedcontent` | whether the trend is promoted content, as reported by Twitter.
 
-## File preview
-
-```bash
-$ head 2016-03-29_to_2018-07-20_trends_gbg.csv
-
-datetime,trend,tweetvolume,promotedcontent
-2016-03-29 11:24,Avicii,,
-2016-03-29 11:24,Cypern,,
-2016-03-29 11:24,#EgyptAir,122209,
-2016-03-29 11:24,#svmed,,
-2016-03-29 11:24,Larnaca,33662,
-2016-03-29 11:24,#KEIOSFESTIVAL16,,
-2016-03-29 11:24,Tjeckien,,
-2016-03-29 11:24,Lahore,175765,
-2016-03-29 11:24,#tv4nyheterna,,
-```
 ## Files
 
 Twitter trends collected from 2014-12-18 and onwards:
@@ -48,6 +32,23 @@ Gothenburg | [2016-03-29_to_2018-07-20_trends_gbg.csv.zip](2016-03-29_to_2018-07
 Gothenburg | [trends_gbg.csv.zip](trends_gbg.csv.zip) | Every 1 hour* | 156,143 | 4
 
 \* Collected from 2018-11-21 and onwards (data is missing 2018-07-20 to 2018-11-21 due to a server crash).
+
+## File preview
+
+```bash
+$ head 2016-03-29_to_2018-07-20_trends_gbg.csv
+
+datetime,trend,tweetvolume,promotedcontent
+2016-03-29 11:24,Avicii,,
+2016-03-29 11:24,Cypern,,
+2016-03-29 11:24,#EgyptAir,122209,
+2016-03-29 11:24,#svmed,,
+2016-03-29 11:24,Larnaca,33662,
+2016-03-29 11:24,#KEIOSFESTIVAL16,,
+2016-03-29 11:24,Tjeckien,,
+2016-03-29 11:24,Lahore,175765,
+2016-03-29 11:24,#tv4nyheterna,,
+```
 
 ## R code to load hashtags
 
@@ -87,8 +88,7 @@ According to [Twitter FAQ](https://help.twitter.com/en/using-twitter/twitter-tre
 > 
 > Note: The number of Tweets that are related to the trends is just one of the factors the algorithm looks at when ranking and determining trends. Algorithmically, trends and hashtags are grouped together if they are related to the same topic. For instance, #MondayMotivation and #MotivationMonday may both be represented by #MondayMotivation.
 
-
-### Cite
+## Cite
 
 If you use the Twitter trends data, please cite using the following BibTeX:
 
