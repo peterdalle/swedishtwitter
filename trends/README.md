@@ -77,6 +77,17 @@ rm(df1, df2, df3)
 nrow(hashtags)
 ```
 
+## How are trends determined?
+
+According to [Twitter FAQ](https://help.twitter.com/en/using-twitter/twitter-trending-faqs):
+
+> Trends are determined by an algorithm and, by default, are tailored for you based on who you follow, your interests, and your location. This algorithm identifies topics that are popular now, rather than topics that have been popular for a while or on a daily basis, to help you discover the hottest emerging topics of discussion on Twitter.
+>
+> You can choose to see trends that are not tailored for you by selecting a specific trends location on twitter.com, iOS, or Android (instructions below). Location trends identify popular topics among people in a specific geographic location.
+> 
+> Note: The number of Tweets that are related to the trends is just one of the factors the algorithm looks at when ranking and determining trends. Algorithmically, trends and hashtags are grouped together if they are related to the same topic. For instance, #MondayMotivation and #MotivationMonday may both be represented by #MondayMotivation.
+
+
 ### Cite
 
 If you use the Twitter trends data, please cite using the following BibTeX:
