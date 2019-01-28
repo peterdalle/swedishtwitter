@@ -1,6 +1,6 @@
 # Swedish Twitter - Trends
 
-About one million hashtags from 2014 and onwards from three locations have been collected every hour via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place):
+About three million hashtags in total from 2014 and onwards from three locations have been collected every hour via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place):
 
 * Sweden (WOEID 23424954)
 * Stockholm (WOEID 906057)
