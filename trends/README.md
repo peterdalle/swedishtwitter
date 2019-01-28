@@ -1,6 +1,6 @@
 # Swedish Twitter - Trends
 
-About one million hashtags from 2014 and onwards from three locations have been collected via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place):
+About one million hashtags from 2014 and onwards from three locations have been collected every hour via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place):
 
 * Sweden (WOEID 23424954)
 * Stockholm (WOEID 906057)
@@ -18,7 +18,7 @@ Header | Description
 ## File preview
 
 ```bash
-$ head trends_gbg.csv
+$ head 2016-03-29_to_2018-07-20_trends_gbg.csv
 
 datetime,trend,tweetvolume,promotedcontent
 2016-03-29 11:24,Avicii,,
@@ -33,7 +33,7 @@ datetime,trend,tweetvolume,promotedcontent
 ```
 ## Files
 
-Twitter trends collected from 2016-03-29 and onwards.
+Twitter trends collected from 2014-12-18 and onwards:
 
 Location | File | Collection | n | Headers
 :------------- | :------------- | :------------- | -------: | ----------:
@@ -51,7 +51,7 @@ Gothenburg | [trends_gbg.csv.zip](trends_gbg.csv.zip) | Every 1 hour* | 156,143 
 
 ## R code to load tweets
 
-This will load hashtags from the location Sweden. Just replace `sweden` in the filenames with `sthlm` or `gbg` to load other locations.
+This will load hashtags from the location Sweden.
 
 ```r
 # Read CSV file with 2 headers: datetime,trend
