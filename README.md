@@ -4,7 +4,7 @@ Here I will gather some data collections from the Swedish Twitter.
 
 ## Trends from Swedish Twitter 2014 and onwards
 
-About [three million hashtags](trends/) from Sweden, Stockholm and Gothenburg.
+Over [five million hashtags](trends/) from Sweden, Stockholm and Gothenburg.
 
 ## Members of Swedish Parliament (Riksdagen) Twitter Handles
 

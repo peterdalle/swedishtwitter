@@ -1,6 +1,6 @@
 # Swedish Twitter - Trends
 
-About three million trends (e.g., hashtags) in total from 2014 and onwards from three locations have been collected every hour via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place):
+Over 5 million trends (e.g., hashtags) in total from 2014 and onwards from three locations have been collected every hour via the [Twitter GET trends/place API](https://dev.twitter.com/rest/reference/get/trends/place):
 
 * Sweden (WOEID 23424954)
 * Stockholm (WOEID 906057)
@@ -23,13 +23,13 @@ Location | File | Collection | n | Headers
 :------------- | :------------- | :------------- | -------: | ----------:
 Sweden | [2014-12-18_to_2016-03-29_trends_sweden.csv.zip](2014-12-18_to_2016-03-29_trends_sweden.csv.zip) | Every 8 hours | 25,768 | 2
 Sweden | [2016-03-29_to_2018-07-20_trends_sweden.csv.zip](2016-03-29_to_2018-07-20_trends_sweden.csv.zip) | Every 1 hour | 822,280 | 4
-Sweden | [trends_sweden.csv.zip](trends_sweden.csv.zip) | Every 1 hour* | 155,898 | 4
+Sweden | [trends_sweden.csv.zip](trends_sweden.csv.zip) | Every 1 hour* | 979,376 | 4
 Stockholm | [2014-12-18_to_2016-03-29_trends_sthlm.csv.zip](2014-12-18_to_2016-03-29_trends_sthlm.csv.zip) | Every 8 hours | 25,786 | 2
 Stockholm | [2016-03-29_to_2018-07-20_trends_sthlm.csv.zip](2016-03-29_to_2018-07-20_trends_sthlm.csv.zip) | Every 1 hour | 823,658 | 4
-Stockholm | [trends_sthlm.csv.zip](trends_sthlm.csv.zip) | Every 1 hour* | 1563,26 | 4
+Stockholm | [trends_sthlm.csv.zip](trends_sthlm.csv.zip) | Every 1 hour* | 979,775 | 4
 Gothenburg | [2014-12-19_to_2016-03-29_trends_gbg.csv.zip](2014-12-19_to_2016-03-29_trends_gbg.csv.zip) | Every 8 hours | 25,791 | 2
 Gothenburg | [2016-03-29_to_2018-07-20_trends_gbg.csv.zip](2016-03-29_to_2018-07-20_trends_gbg.csv.zip) | Every 1 hour | 829,743 | 4
-Gothenburg | [trends_gbg.csv.zip](trends_gbg.csv.zip) | Every 1 hour* | 156,143 | 4
+Gothenburg | [trends_gbg.csv.zip](trends_gbg.csv.zip) | Every 1 hour* | 979,736 | 4
 
 \* Collected from 2018-11-21 and onwards (data is missing 2018-07-20 to 2018-11-21 due to a server crash).
 
